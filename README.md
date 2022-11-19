@@ -18,3 +18,10 @@
  - > "If it looks like a duck and quacks like a duck but it needs batteries, you probably have the wrong abstraction!"
  - When using inheritance, all objects that inherit from the same source should be interchangeable;
  - You should break the hierarchy and give at least one more layer of abstraction if your code fails this principle.
+
+### [I]nterface Segregation Principle (ISP)
+ - > "No client should be forced to depend on methods it does not use";
+ - Interfaces must maintain cohesion;
+ - If a concrete class has blank methods, the inherited interfaces should be splitted into smaller interfaces;
+ - Interfaces with common methods should inherit from a parent interface;
+ - Interfaces with a large number of methods (fat interfaces) are a sign of violation of ISP;
