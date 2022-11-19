@@ -25,3 +25,7 @@
  - If a concrete class has blank methods, the inherited interfaces should be splitted into smaller interfaces;
  - Interfaces with common methods should inherit from a parent interface;
  - Interfaces with a large number of methods (fat interfaces) are a sign of violation of ISP;
+
+### [D]ependency Inversion Principle
+ - > "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.";
+ - Dependency injection helps to decouple a class from its dependencies, as it delegates the dependency details to the abstraction;
