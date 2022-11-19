@@ -11,4 +11,10 @@
  - Software components should be ***open for extension***, but ***closed for modification***;
  - Components should be built to allow new features through extensions but not modifications;
  - OCP requires decoupled components, related to SRP;
- - ***Interfaces and abstract classes*** are essentials for this principle;
+ - ***Interfaces and abstract classes*** are essentials for this principle.
+
+### [L]iskov Substitution Principle
+ - > "Objects should be replaceable with their subtypes without affecting the correctness of the program" - Barbara Liskov;
+ - > "If it looks like a duck and quacks like a duck but it needs batteries, you probably have the wrong abstraction!"
+ - When using inheritance, all objects that inherit from the same source should be interchangeable;
+ - You should break the hierarchy and give at least one more layer of abstraction if your code fails this principle.
