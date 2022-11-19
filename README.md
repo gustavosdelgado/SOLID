@@ -1,4 +1,4 @@
-# SOLID Principles
+# SOLID Design Principles
 
 ### [S]ingle Responsibility Principle (SRP)
  - Every software **component** should have one and only one ~~responsibilty~~ reason to change;
